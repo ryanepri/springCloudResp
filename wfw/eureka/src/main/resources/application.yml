@@ -1,0 +1,20 @@
+server:
+  port: 7000
+
+
+spring:
+  application:
+    name: ryan-eureka
+
+
+#??eureka??????url
+eureka:
+  instance:
+    hostname: ryan-eureka
+  client:
+    service-url:
+      defaultZone: http://127.0.0:7000/eureka
+    register-with-eureka: false
+    fetch-registry: false
+
+
