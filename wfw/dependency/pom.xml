@@ -11,6 +11,9 @@
     <modules>
         <module>../commons</module>
         <module>../order</module>
+        <module>../order-api</module>
+        <module>../goods</module>
+        <module>../goods-api</module>
     </modules>
 
 

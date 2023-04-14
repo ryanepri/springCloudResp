@@ -13,8 +13,10 @@
     <groupId>com.ryan</groupId>
     <artifactId>wfw</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>wfw</name>
     <description>wfw</description>
+
 
     <properties>
         <java.version>1.8</java.version>
